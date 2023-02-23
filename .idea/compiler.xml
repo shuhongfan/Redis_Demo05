@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="redis_distributed_lock3" />
+        <module name="redis7_study" />
+        <module name="canal_demo02" />
+        <module name="redis_redlock" />
+        <module name="redis_distributed_lock2" />
+        <module name="mybatis_generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="canal_demo02" target="1.8" />
+      <module name="mybatis_generator" target="1.8" />
+      <module name="redis7_study" target="1.8" />
+      <module name="redis_distributed_lock2" target="1.8" />
+      <module name="redis_distributed_lock3" target="1.8" />
+      <module name="redis_redlock" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="canal_demo02" options="-parameters" />
+      <module name="mybatis_generator" options="-parameters" />
+      <module name="redis7_study" options="-parameters" />
+      <module name="redis_distributed_lock2" options="-parameters" />
+      <module name="redis_distributed_lock3" options="-parameters" />
+      <module name="redis_redlock" options="-parameters" />
+    </option>
+  </component>
+</project>
