@@ -29,6 +29,7 @@ class Redis7Study7777Test
         List<String> list = Arrays.asList("22.10.11.1","192.168.111.2","192.168.111.2","192.168.7.51");
 
         HashSet<String> sets = new HashSet<>(list);
+        System.out.println(sets);
     }
 
     /**

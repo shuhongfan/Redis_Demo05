@@ -23,7 +23,7 @@ public class HyperLogLogService
     /**
      * 模拟后台有用户点击淘宝首页www.taobao.com，每个用户来自不同的IP地址
      */
-    //@PostConstruct
+//    @PostConstruct
     public void initIP()
     {
         new Thread(() -> {
